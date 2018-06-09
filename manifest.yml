@@ -1,0 +1,11 @@
+application:
+-path: .
+memory: #memory#
+instances: #instances#
+domain: #domain#
+name: #name#
+host: #host#
+disk_quota: #disk_quota#
+env:
+  myvar1: #myvar1#
+  
