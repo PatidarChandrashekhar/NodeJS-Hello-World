@@ -33,7 +33,7 @@ Note: Windows users see the note below regarding npm.
 
 Change to the new project directory: cd NodeJS-Hello-World
 
-### 4 Type
+### 4 Running the project
 swagger project start
 to start your API. You now have an API running with swagger!
 
@@ -45,7 +45,7 @@ And, you'll get back the response { "message": "Hello, Scott!" }.
 
 That's it - You have now created, started and tested your first API project with swagger!
 
-### 5 Open the Swagger editor
+### 5 How to Open the Swagger editor
 
 swagger project edit
 
