@@ -57,5 +57,8 @@ C:\SHEKHAR\DEVELOPMENTS\NodeJS\NodeJS-Hello-World>code .
 ### Open visual studio code directly 
 
 @echo off
+
 CALL "c:\program files\nodejs\nodevars.bat"
+
 Start %ComSpec% /k ""c:\program files\microsoft vs code\code.exe""
+
