@@ -49,12 +49,12 @@ That's it - You have now created, started and tested your first API project with
 
 swagger project edit
 
-### Open project in Visual studio code
+### 6 Open project in Visual studio code
 
 C:\SHEKHAR\DEVELOPMENTS\NodeJS\NodeJS-Hello-World>code .
 
 
-### Open visual studio code directly 
+### 7 Open visual studio code directly 
 
 @echo off
 
@@ -63,7 +63,7 @@ CALL "c:\program files\nodejs\nodevars.bat"
 Start %ComSpec% /k ""c:\program files\microsoft vs code\code.exe""
 
 
-### Cloud Foundary CLI for pushing and managing apps, creating and bindinng services
+### 8 Cloud Foundary CLI for pushing and managing apps, creating and bindinng services
 
 1. Get help in the CLI:
 $ cf help
@@ -77,5 +77,3 @@ API endpoint: https://api.example.com
 $ cf push <applicatoin name>
   
 CLI refrence: https://docs.cloudfoundry.org/devguide/deploy-apps/deploy-app.html
-
-
