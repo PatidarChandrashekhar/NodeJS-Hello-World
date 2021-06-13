@@ -62,3 +62,20 @@ CALL "c:\program files\nodejs\nodevars.bat"
 
 Start %ComSpec% /k ""c:\program files\microsoft vs code\code.exe""
 
+
+### Cloud Foundary CLI for pushing and managing apps, creating and bindinng services
+
+1. Get help in the CLI:
+$ cf help
+
+2. Logging to the CLI: 
+$ cf login -a https://api.example.com
+OR $ cf login -a https://api.example.com -u username@example.com -o example-org -s development
+API endpoint: https://api.example.com
+
+3. Push an application:
+$ cf push <applicatoin name>
+  
+CLI refrence: https://docs.cloudfoundry.org/devguide/deploy-apps/deploy-app.html
+
+
