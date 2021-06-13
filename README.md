@@ -3,20 +3,20 @@
 
 First, we create a new swagger project and test a simple "NodeJS-Hello-World" API.
 
-## 1 Install swagger, as described as per below:
+## 1. Install swagger, as described as per below:
 Installing on Windows
 #Open a terminal.
 
 Run the install:
 npm install -g swagger
 
-### 2 Create swagger project directory and cd to it. This is where you'll create your first project.
+### 2. Create swagger project directory and cd to it. This is where you'll create your first project.
 
 Execute the project create command:
 
 swagger project create hello-world
 
-### 3 Pick the API framework you want to use. We're going to pick express, but you can pick any of the listed frameworks:
+### 3. Pick the API framework you want to use. We're going to pick express, but you can pick any of the listed frameworks:
 
 #### ? Framework? (Use arrow keys)
 ####  connect
@@ -33,7 +33,7 @@ Note: Windows users see the note below regarding npm.
 
 Change to the new project directory: cd NodeJS-Hello-World
 
-### 4 Running the project
+### 4. Running the project
 swagger project start
 to start your API. You now have an API running with swagger!
 
@@ -45,16 +45,16 @@ And, you'll get back the response { "message": "Hello, Scott!" }.
 
 That's it - You have now created, started and tested your first API project with swagger!
 
-### 5 How to Open the Swagger editor
+### 5. How to Open the Swagger editor
 
 swagger project edit
 
-### 6 Open project in Visual studio code
+### 6. Open project in Visual studio code
 
 C:\SHEKHAR\DEVELOPMENTS\NodeJS\NodeJS-Hello-World>code .
 
 
-### 7 Open visual studio code directly 
+### 7. Open visual studio code directly 
 
 @echo off
 
@@ -63,7 +63,7 @@ CALL "c:\program files\nodejs\nodevars.bat"
 Start %ComSpec% /k ""c:\program files\microsoft vs code\code.exe""
 
 
-### 8 Cloud Foundary CLI for pushing and managing apps, creating and bindinng services
+### 8. Cloud Foundary CLI for pushing and managing apps, creating and bindinng services
 
 1. Get help in the CLI:
 $ cf help
