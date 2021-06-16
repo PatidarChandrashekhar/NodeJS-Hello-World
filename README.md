@@ -80,5 +80,5 @@ CLI refrence: https://docs.cloudfoundry.org/devguide/deploy-apps/deploy-app.html
   
   
 ### 9. Run NodeJS application from command prompt:
-  node [main.js file name without extension] <if any arguments>
+  node [main.js file name without extension] [if any arguments]
   
