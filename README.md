@@ -83,9 +83,9 @@ CLI refrence: https://docs.cloudfoundry.org/devguide/deploy-apps/deploy-app.html
   node [main.js file name without extension] [if any arguments]
   
 ### 10. Run NodeJS application from batch file:
-@ECHO Task Name: Hospital Management System
-@ECHO Login to PCF
-cf login -a https://api.sys.cf.com -u username -p password -o HMS -s HMS_Production
-@ECHO run task
-cf run-task HMS-App "node app start" --name "application start" -m 1GB
+1. @ECHO Task Name: Hospital Management System
+2. @ECHO Login to PCF
+3. cf login -a https://api.sys.cf.com -u username -p password -o HMS -s HMS_Production
+4. @ECHO run task
+5. cf run-task HMS-App "node app start" --name "application start" -m 1GB
   
