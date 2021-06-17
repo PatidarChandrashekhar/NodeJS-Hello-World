@@ -89,3 +89,11 @@ CLI refrence: https://docs.cloudfoundry.org/devguide/deploy-apps/deploy-app.html
 4. @ECHO run task
 5. cf run-task HMS-App "node app start" --name "application start" -m 1GB
   
+### 11. ECS S3 Storage Parameters:
+1. accessKey
+2. bucket
+3. endpoint
+4. path-style-access
+5. s3Url
+6. secretKey
+
